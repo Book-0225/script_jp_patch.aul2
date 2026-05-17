@@ -1006,6 +1006,8 @@ Threshold (dB)=しきい値(dB)
 Attack (ms)=アタック(ms)
 Release (ms)=リリース(ms)
 Mix=ミックス
+[External Audio Processing 2 MIDI Generator]
+External Audio Processing 2 MIDI Generator=EAP2:MIDI再生(MIDI Generator)
 
 ; namacream氏のスクリプト https://x.com/namacream_/status/1945511815250940401
 [Datamosh]
