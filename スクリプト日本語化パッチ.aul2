@@ -1,4 +1,4 @@
-; スクリプト日本語化パッチ.aul2 / Copyright (c) 2026 Garech / 最終確認: 2026.04.18
+; スクリプト日本語化パッチ.aul2 / Copyright (c) 2026 Garech / 最終確認: 2026.05.19
 ; ----------------------------------------------------------
 ; ※最重要（必ず守ってください！）
 ; ○スクリーンショットや動画等で、他人へ編集画面を共有する際は、「スクリプト日本語化パッチを使用中である」旨を必ず明記してください。
@@ -767,6 +767,11 @@ Mosaic_C=モザイクC(Mosaic_C)
 Size=サイズ
 sizeX=横サイズ
 sizeY=縦サイズ
+[AlphaDither]
+AlphaDither=ディザ合成(AlphaDither)
+Alpha=不透明度
+Size=サイズ
+Seed=シード
 
 ; 名無し｡氏のスクリプト https://github.com/sevenc-nanashi
 [disassembler.anm2]
@@ -1008,6 +1013,19 @@ Release (ms)=リリース(ms)
 Mix=ミックス
 [External Audio Processing 2 MIDI Generator]
 External Audio Processing 2 MIDI Generator=EAP2:MIDI再生(MIDI Generator)
+[Basic] Sine=基本：正弦波
+[Basic] Square=基本：矩形波
+[Basic] Triangle=基本：三角波
+[Basic] Saw=基本：のこぎり波
+[Noise] White=ノイズ：ホワイト
+[Noise] Pink=ノイズ：ピンク
+[Phys] Karplus=物理：弦楽器
+[Digi] FM Basic=デジタル：FM基本
+[Inst] Grand Piano=楽器：ピアノ
+[Inst] Music Box=楽器：オルゴール
+[Retro] 8-bit Pulse=レトロ：8bit音
+[Drum] Kick=ドラム：キック
+[Syn] Super Saw=シンセ：スーパーソウ
 
 ; namacream氏のスクリプト https://x.com/namacream_/status/1945511815250940401
 [Datamosh]
@@ -1024,9 +1042,23 @@ Output Flow=動きの可視化
 MiterOutline=角立ち縁取り(MiterOutline)
 [MiterText]
 MiterText=角立ちテキスト(MiterText)
+[TV Simulator]
+TV Simulator=レトロテレビ風(TV Simulator)
+DigitalZoom=デジタルズーム
+ApertureGrill=縦すじ
+Interlacing=走査線
+LineSync=横安定度
+VerticalSync=縦安定度
+ScanPhasing=チラつき
+Phosphorescence=残光感
+StaticNoise=砂嵐ノイズ
 
 ; 🈂️行氏のスクリプト https://github.com/SagyouDarui900
 [GB_Style]
 GB_Style=ゲームボーイ風(GB_Style)
 [OpticsCompensation_s]
 OpticsCompensation_s=レンズ補正(OpticsCompensation_s)
+
+; めかど氏のスクリプト https://note.com/mekado
+[RadialSpike]
+RadialSpike=放射とげとげ変形(RadialSpike)
